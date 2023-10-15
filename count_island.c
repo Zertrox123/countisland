@@ -27,9 +27,9 @@ int count_island(char **world)
     int boolean = 0;
 
     while (world[i][y] != NULL){
-        while (world[i][y] != '\0'){
+        if (world[i][y + 1] != '\0')
             i++;
-        }
+            x++;
         recherche(x, y, numbers, world);
         boolean = preview(x, y, world);
         if (boolean == 1)
