@@ -21,7 +21,7 @@ int my_compute_square_root(int nb);
 int my_is_prime(int nb);
 int my_find_prime_sup(int nb);
 char *my_strcpy(char *dest, char const *src);
-char *my_strncpy(char *dest, char const *src, int n); 
+char *my_strncpy(char *dest, char const *src, int n);
 char *my_revstr(char *str);
 char *my_strstr(char *str, char const *to_find);
 int my_strcmp(char const *s1, char const *s2);
